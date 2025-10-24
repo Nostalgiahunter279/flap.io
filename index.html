@@ -22,7 +22,7 @@
     h3{ font-family:'Permanent Marker'; }
 </style>
 <body>
-    <h1><b>Flappy Bird !!! (game) <div id="div1" class="fa"></div> </b></h1>
+    <h1><b>Flappy Bird infinite !!! (game) <div id="div1" class="fa"></div> </b></h1>
     <h3><b>If you want to have a very high score. Think out of this game !<hr> and tell me your high score </b></h3>
 <canvas id="myCanvas" width=320 height=480
 style="background:url('http://s2js.com/img/etc/flappyback.png');  background-size: 100%; height: 95% "
@@ -176,7 +176,7 @@ function display_game_over () {
   ctx.fillText("Game Over", myCanvas.width / 2, 100); 
   ctx.fillText("Score: " + score, myCanvas.width / 2, 150); 
   ctx.font= "20px Arial";
-  ctx.fillText("Click, touch, or press to play again", myCanvas.width / 2, 300); 
+  ctx.fillText("Click, touch, or press to play again, good luck!", myCanvas.width / 2, 300); 
   }
 function display_bar_running_along_bottom() {
     if (bottom_bar_offset < -23) bottom_bar_offset = 0;
